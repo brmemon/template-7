@@ -488,9 +488,22 @@ img {
     font-size: 24px;
 }
 
+.w3-medium{
+    color: black;
+}
+
+.w3_color:hover{
+    color: rgb(101, 149, 30);
+}
+.media1{
+    display: none;
+}
 
 
 @media screen and (max-width: 600px) {
+    .media1{
+        display: block;
+    }
     .media {
         width: 100%;
         height: auto;
@@ -537,10 +550,29 @@ img {
 }
 
 
+@media screen and (max-width: 980px) {
+    .media1 {
+        width: 60%;
+        height: auto;
+        margin-bottom: 0;
+        margin-left: 107px;
+        display: block;
+        border-radius: 4px;
+    }
+    .bg_img{
+        display: none;
+    }
+
+    .section_one {
+            margin-left: 0;
+    }
+}
 
 
 @media screen and (min-width: 600px) {
-
+    /* .media1 {
+        display: block;
+    } */
     .media {
         display: none;
     }
