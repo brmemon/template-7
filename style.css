@@ -142,6 +142,9 @@ img {
 }
 
 .about_section {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 32px;
     padding-bottom: 64px;
 }
@@ -500,7 +503,7 @@ img {
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 992px) {
     .media1 {
         width: 60%;
         height: auto;
@@ -539,6 +542,10 @@ img {
     .bg_img {
         display: none;
     }
+
+    /* .about_section{
+        
+    } */
 
     .section_one {
         margin-left: 0;
