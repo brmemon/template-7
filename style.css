@@ -500,9 +500,30 @@ img {
 }
 
 
+
+@media screen and (max-width: 980px) {
+    .media1 {
+        width: 60%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        display: block;
+        border-radius: 4px;
+    }
+    .bg_img{
+        display: none;
+    }
+
+    .section_one {
+            margin-left: 0;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     .media1{
-        display: block;
+        display: none;
     }
     .media {
         width: 100%;
@@ -549,24 +570,6 @@ img {
     }
 }
 
-
-@media screen and (max-width: 980px) {
-    .media1 {
-        width: 60%;
-        height: auto;
-        margin-bottom: 0;
-        margin-left: 107px;
-        display: block;
-        border-radius: 4px;
-    }
-    .bg_img{
-        display: none;
-    }
-
-    .section_one {
-            margin-left: 0;
-    }
-}
 
 
 @media screen and (min-width: 600px) {
